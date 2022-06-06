@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  // text-align: center;
 }
 
 .App-logo {
@@ -35,4 +35,34 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.nav {
+  height: 6rem;
+}
+.header-title {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.row {
+  width: 100%;
+  position: relative;
+}
+tr {
+  text-align: center;
+}
+th {
+  width: 0.1%;
+  border: 10px solid;
+}
+.footer {
+  // position: absolute;
+  bottom: 0;
+  text-align: center;
+  background-color: #282c34;
+  color: white;
+  width: 100%;
+  border: 2px 0 0 0 solid black;
 }
